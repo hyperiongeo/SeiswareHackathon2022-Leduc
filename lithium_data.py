@@ -41,3 +41,6 @@ def get_lith_horizon(horizon_name='Woodbend Group'):
     df_out = df[df.Geo_Unit == horizon_name]
     # print(df_out.shape)
     return df_out
+
+def get_lith():
+    return df
